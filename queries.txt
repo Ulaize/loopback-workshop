@@ -1,0 +1,20 @@
+1.
+/Entries?filter[order]=firstName ASC
+
+2.
+/Entries?filter[order]=lastName%20DESC&filter[limit]=10
+
+3
+/Entries?filter[skip]=10&[order]=lastName%20ASC
+
+4.
+/Entries?filter[where][firstName]=John
+
+5
+/Entries?filter[where][firstName][regexp]=John
+
+6.
+/AddressBooks?filter[include]=entries
+
+7.
+/AddressBooks?filter[include]=entries&filter[include][entries]=emails

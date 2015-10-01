@@ -5,7 +5,7 @@
   },
   "addressBookDatabase": {
     "database": "addressbooks",
-    "username": "ziad_saab",
+    "username": "nazioarteko",
     "name": "addressBookDatabase",
     "connector": "mysql",
     "hostname": "0.0.0.0"
