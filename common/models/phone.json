@@ -6,7 +6,18 @@
   "options": {
     "validateUpsert": true
   },
-  "properties": {},
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "phoneType": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string",
+      "required": true
+    }
+  },
   "validations": [],
   "relations": {},
   "acls": [],

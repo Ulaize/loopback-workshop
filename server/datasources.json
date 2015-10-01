@@ -4,10 +4,10 @@
     "connector": "memory"
   },
   "addressBookDatabase": {
+    "database": "addressbooks",
+    "username": "ziad_saab",
     "name": "addressBookDatabase",
     "connector": "mysql",
-    "username": "ziad_saab",
-    "hostname": "0.0.0.0",
-    "database": "addressbooks"
+    "hostname": "0.0.0.0"
   }
 }
